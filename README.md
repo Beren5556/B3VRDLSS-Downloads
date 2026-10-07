@@ -1,12 +1,8 @@
-# Borderlands 3 VR — DLSS / DLAA / Neural — v0.9
+# Borderlands 3 VR — DLSS / DLAA / Neural — v0.9.1
 
-Adds an external OpenXR overlay with synchronized controls, independent OpenXR output resolution, and complete OFXR Classic / Djules75 settings.
+## Changelog
 
-- Open the overlay with F10 or the two-handed controller gesture.
-- Apply, Apply and save, and Discard controls shared with the UEVR panel.
-- Classic 2X and Djules75 2X/3X frame generation options. OFXR changes require restarting the game.
-- Private runtime dependencies extracted automatically.
-- Based on the accepted renderer, preserving the existing HUD and hand controls.
+- Removed internal OFXR functionality. OFXR can now be used externally through the plugin provided by its developer.
 
 ## Requirements
 
@@ -18,11 +14,11 @@ Windows x64 and [Microsoft Visual C++ Redistributable x64](https://aka.ms/vc14/v
 
 ## Installation
 
-**[Download the complete Borderlands3.zip](https://github.com/Beren5556/B3VRDLSS-Downloads/releases/download/v0.9/Borderlands3.zip). Keep that exact filename for UEVR Import Config.**
+**[Download the complete Borderlands3.zip](https://github.com/Beren5556/B3VRDLSS-Downloads/releases/download/v0.9.1/Borderlands3.zip). Keep that exact filename for UEVR Import Config.**
 
 With the game and UEVR closed, keep the previous profile outside `UnrealVRMod` as a backup. Use UEVR **Import Config** to import `Borderlands3.zip` into a clean profile. Configuration, CVars, controller bindings, HUD/hand attachments, runtime scripts, OpenHotfixLoader/hotfix and the DLSS plugin are included. No previous profile or private repository is required. Inject at your usual working point. F10 opens the custom overlay.
 
-The corrected 0.9 package includes the overlay manifest and layer DLL before first injection, so the layer can be registered on the first launch. The rendering plugin remains unchanged.
+The overlay manifest and layer DLL are included before first injection. The runtime starts automatically from the complete profile.
 
 The download contains the complete executable profile and third-party notices. Its private runtime dependencies are embedded and extracted automatically. UEVR, the game, drivers, saves, logs and development sources are not included. Buildable project sources, SDKs, tests and technical evidence stay in the private repository. HF8 is excluded.
 
