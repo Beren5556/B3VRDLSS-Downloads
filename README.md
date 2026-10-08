@@ -2,7 +2,7 @@
 
 ## Changelog
 
-- Mejoras en DLSS.
+- DLSS Improvements.
 
 ## Requirements
 
