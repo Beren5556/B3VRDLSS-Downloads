@@ -1,8 +1,8 @@
-# Borderlands 3 VR — DLSS / DLAA / Neural — v0.9.1
+# Borderlands 3 VR — DLSS / DLAA / Neural — v0.9.2
 
 ## Changelog
 
-- Removed internal OFXR functionality. OFXR can now be used externally through the plugin provided by its developer.
+- Mejoras en DLSS.
 
 ## Requirements
 
@@ -14,7 +14,7 @@ Windows x64 and [Microsoft Visual C++ Redistributable x64](https://aka.ms/vc14/v
 
 ## Installation
 
-**[Download the complete Borderlands3.zip](https://github.com/Beren5556/B3VRDLSS-Downloads/releases/download/v0.9.1/Borderlands3.zip). Keep that exact filename for UEVR Import Config.**
+**[Download the complete Borderlands3.zip](https://github.com/Beren5556/B3VRDLSS-Downloads/releases/download/v0.9.2/Borderlands3.zip). Keep that exact filename for UEVR Import Config.**
 
 With the game and UEVR closed, keep the previous profile outside `UnrealVRMod` as a backup. Use UEVR **Import Config** to import `Borderlands3.zip` into a clean profile. Configuration, CVars, controller bindings, HUD/hand attachments, runtime scripts, OpenHotfixLoader/hotfix and the DLSS plugin are included. No previous profile or private repository is required. Inject at your usual working point. F10 opens the custom overlay.
 
