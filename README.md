@@ -1,4 +1,4 @@
-# Borderlands 3 VR â€” DLSS / DLAA / Neural â€” v0.9.3
+# Borderlands 3 VR DLSS / DLAA / Neural v0.9.3
 
 ## Changelog
 
